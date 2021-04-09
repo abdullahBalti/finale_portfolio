@@ -98,27 +98,28 @@ h5 {
   width: 85%;
   margin: auto;
 }
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-  line-height: 80px;
-}
 .top-nav img {
   width: 4rem;
   background-color: #ffff;
   padding: 5px;
   border-radius: 5px;
 }
-.nav-header .logo {
+.logo {
   display: flex;
   align-items: center;
   /*border: 1px solid red;*/
 }
-.nav-header .logo img{
+.logo img{
   margin-top: 7px;
 }
-.nav-list {
+.logo button{
+  background-color: transparent;
+  border: none;
+}
+.nav-list{
   display: flex;
+  flex-wrap: wrap;
+  height: auto;
 }
 .nav-list a {
   color: #444;
@@ -346,6 +347,7 @@ h5 {
 }
 .right-dt {
   display: flex;
+  width: 100%;
 }
 .right-dt iframe {
   width: 100%;
@@ -357,12 +359,13 @@ h5 {
 .footer {
   width: 100%;
   background-color: rgba(1, 23, 46, 1);
-  height: 60px;
+  /*height: 60px;*/
   overflow: hidden;
 }
 .footer-content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   line-height: 60px;
 }
@@ -382,23 +385,45 @@ h5 {
   .nav-toggle{
     display: none;
   }
+  .top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }  
 }
 @media screen and (max-width: 760px){
-  .nav-header{
+  .logo{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;    
+  }
+  .nav-toggle{
+    /*background-color: red;*/
   }
   .nav-toggle i{
     font-size: 2rem;
+    /*background-color: red;    */
   }
   .nav-list{
     height: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    /*display: none;*/
   }  
   .show-list{
-    height: 15rem; 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /*width: 25vw;*/
+    height: 12rem; 
+    margin-top: 25px;
+    background-color: #fff;
+  }
+  .show-list>li:first-child{
+    padding-left: 35px;
+  }
+  .contact-email span{
+    font-size: 20px;
+    border: 1px solid red;
   }
 }

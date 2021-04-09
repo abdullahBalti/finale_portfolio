@@ -5,6 +5,13 @@ window.addEventListener("scroll", ()=>{
 	mainNav.classList.toggle("nav-fixed", window.scrollY > 130);
 });
 
+let navToggle = document.querySelector('.nav-toggle');
+let navList = document.querySelector('.nav-list');
+
+navToggle.addEventListener("click", ()=>{
+	navList.classList.toggle('show-list');
+});
+
 
 // let projectslist = document.getElementById('myDIV');
 let list = document.querySelector('.projects-list');
