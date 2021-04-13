@@ -389,7 +389,8 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-  }  
+  }
+
 }
 @media screen and (max-width: 760px){
   .logo{
@@ -424,6 +425,8 @@ h5 {
   }
   .contact-email span{
     font-size: 20px;
+  }
+  #projects{
     border: 1px solid red;
   }
 }
