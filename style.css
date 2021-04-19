@@ -109,14 +109,14 @@ h5 {
   align-items: center;
   /*border: 1px solid red;*/
 }
-.logo img{
+.logo img {
   margin-top: 7px;
 }
-.logo button{
+.logo button {
   background-color: transparent;
   border: none;
 }
-.nav-list{
+.nav-list {
   display: flex;
   flex-wrap: wrap;
   height: auto;
@@ -163,10 +163,11 @@ h5 {
   padding-top: 15vh;
 }
 .about-me {
-  margin-top: 35px;
+  margin-top: 45px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-auto-rows: 370px;
+  z-index: 20;
 }
 .my-dt-list {
   display: flex;
@@ -381,52 +382,48 @@ h5 {
 .git-link a {
   color: #fff;
 }
-@media screen and (min-width: 765px){
-  .nav-toggle{
+@media screen and (min-width: 765px) {
+  .nav-toggle {
     display: none;
   }
-  .top-nav{
+  .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
   }
-
 }
-@media screen and (max-width: 760px){
-  .logo{
+@media screen and (max-width: 760px) {
+  .logo {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
   }
-  .nav-toggle{
+  .nav-toggle {
     /*background-color: red;*/
   }
-  .nav-toggle i{
+  .nav-toggle i {
     font-size: 2rem;
     /*background-color: red;    */
   }
-  .nav-list{
+  .nav-list {
     height: 0;
     overflow: hidden;
     /*display: none;*/
-  }  
-  .show-list{
+  }
+  .show-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /*width: 25vw;*/
-    height: 12rem; 
+    height: 12rem;
     margin-top: 25px;
     background-color: #fff;
   }
-  .show-list>li:first-child{
+  .show-list > li:first-child {
     padding-left: 35px;
   }
-  .contact-email span{
+  .contact-email span {
     font-size: 20px;
-  }
-  #projects{
-    border: 1px solid red;
   }
 }

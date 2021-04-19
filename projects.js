@@ -3,10 +3,10 @@
 const projects = [
 	{
 		id: 1,
-		img: "./projects/projects_1.jpg",
-		githubSrc: "https://github.com/abdullahBalti/electronics_store",
-		liveView: "https://vigorous-bassi-5f6c12.netlify.app/",
-		decs: "Full responsive Psd to Frontend Development using Html5 css3 javascript and owlcarousel.",
+		img: "./projects/qoqa.jpg",
+		githubSrc: "https://github.com/abdullahBalti/qoqa",
+		liveView: "https://qoqa.netlify.app/",
+		decs: "Full responsive Redevelop form qoqa.ch using Html5 css3 javascript bootstrap.",
 		category:"Html5 Css3 Js"
 	},
 	{
@@ -30,7 +30,7 @@ const projects = [
 		img: "./projects/sass1.jpg",
 		githubSrc: "https://github.com/abdullahBalti/constructioncompany",
 		liveView: "https://eager-beaver-7ff42d.netlify.app/",		
-		decs: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quasi nostrum doloremque. Debitis iusto corporis, fugiat beatae modi vero quis nesciunt sunt.",
+		decs: "This PSD design converting web template using html5 or scss for learning.",
 		category:"Sass"
 	},
 	{
@@ -38,7 +38,7 @@ const projects = [
 		img: "./projects/sass2.jpg",
 		githubSrc: "https://github.com/abdullahBalti/directone",
 		liveView: "https://youthful-mirzakhani-263d92.netlify.app/",		
-		decs: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quasi nostrum doloremque. Debitis iusto corporis, fugiat beatae modi vero quis nesciunt sunt.",
+		decs: "This PSD design converting web template using html5 or scss for learning",
 		category:"Sass"
 	},
 	{
