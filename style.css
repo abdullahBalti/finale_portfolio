@@ -427,3 +427,30 @@ h5 {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  body{
+    overflow-x: hidden;
+  }
+  .container{
+    width: 95%;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+  }  
+  #about .about-me{
+    grid-auto-rows: auto; 
+  }
+  .about-me .my-dt-list li:last-child p{
+    width: 85%;
+  }
+  #about .summary{
+    margin-top: 35px;
+  }
+  #about .summary p{
+    /*width: 100%;*/
+    font-size: 14px;
+    padding-right: 25px; 
+    width: 100%;
+  }
+}
