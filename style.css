@@ -428,16 +428,13 @@ h5 {
   }
 }
 @media screen and (max-width: 375px) {
-  body{
-    overflow-x: hidden;
-  }
+  .header, #about, #skills, #tools, #projects, #contact, #footer{overflow-x: hidden;}
   .container{
     width: 95%;
   }
   .header {
     width: 100%;
     height: auto;
-    background-color: red;
   }  
   #about .about-me{
     grid-auto-rows: auto; 
